@@ -21,12 +21,12 @@ def send_discord_webhook(url, message, username=None, avatar_url=None):
             break  # Exit the loop for other errors
         
 webhook_urls = [
-    "https://discord.com/api/webhooks/1185304225194979460/d_t328Y2T3GuvCI-Ml9_L0V735if5AKdf7PpVJfEtUBnNZO9yMlVCqRvIOu6Rw9bzkRQ", #<<< THIS IS WHERE YOUR WEBHOOK LINK GOES.
+    "https://discord.com/YOUR-FUCKING-WEBHOOK-HERE", #<<< THIS IS WHERE YOUR WEBHOOK LINK GOES.
 ]
 
-message_to_send = "@everyone Testing Concluded." #<<< CHANGE THIS TO THE MESSAGE (be nice and at the github repo to the end of the script.) https://github.com/floppydsk3/rate-limiter-V1
+message_to_send = "MESSAGE HERE" #<<< CHANGE THIS TO THE MESSAGE (be nice and at the github repo to the end of the script.) https://github.com/floppydsk3/rate-limiter-V1
 username = "RATE LIMITER V1.1" # <<< THE NAME OF THE WEBHOOK SENT (this isnt the same as the name of the webhook created, the script changes it to what you please.)
-avatar_url = "https://example.com/avatar.png" # <<< Webhook Icon.
+avatar_url = "https://example.com/avatar.png"
 number_of_sends = 5 # <<< HOW MANY TIMES WILL THE WEBHOOK BE SENT. (RATE LIMITS WILL OCCUR QUICKLY, JUST SAYIN.)
 
 for webhook_url in webhook_urls: # >>> DONT WORRY ABOUT ANYTHING BELOW.
